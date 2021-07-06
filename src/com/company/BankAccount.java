@@ -19,7 +19,7 @@ public class BankAccount {
             throw new LimitException ("Снимаем оставшиейся сумму...", getAmount());
         }
         amount -= sum;
-        System.out.println("Остаток счета:" + sum);
+        System.out.println("Снимаемый счет:" + sum);
         return amount;
     }
 

@@ -21,7 +21,9 @@ public class Main {
             case "Нет":
                 out.println("Отменяем процесс...");
                 return;
-
+            default:
+                out.println("Вы ввели неправильное значение!");
+            return;
         }
 
 
